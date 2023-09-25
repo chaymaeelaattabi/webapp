@@ -1,13 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Leroy Merlin</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/index.tsx"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Title Goes Here</title>
+    <style>
+        /* Center the title using CSS flexbox */
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh; /* This centers content vertically */
+            margin: 0;
+        }
+
+        /* Style the icon */
+        .icon {
+            width: 100px; /* Adjust the size as needed */
+            height: 100px; /* Adjust the size as needed */
+            background-image: url('https://play-lh.googleusercontent.com/gUidws3p-AMh5OPyK6obpGH4ubhj5qtQjDgrli1RAaNi-qKRTohSuU8y2sscbTDdCeA');
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <!-- Icon div -->
+    <div class="icon"></div>
+
+    <!-- Centered title -->
+    <h1>Leroy Merlin</h1>
+</body>
 </html>
